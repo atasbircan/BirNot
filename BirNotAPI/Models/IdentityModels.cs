@@ -1,4 +1,6 @@
-﻿using System.Security.Claims;
+﻿using System.Collections.Generic;
+using System.Data.Entity;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
@@ -16,6 +18,8 @@ namespace BirNotAPI.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public virtual ICollection<Not> Notlar { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
@@ -29,5 +33,7 @@ namespace BirNotAPI.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Not> Notlar { get; set; }
     }
 }
