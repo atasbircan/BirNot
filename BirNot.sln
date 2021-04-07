@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirNotAPI", "BirNotAPI\BirNotAPI.csproj", "{2B6CD7D6-42E1-4F99-AAFF-C5687821418A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirNotUI", "BirNotUI\BirNotUI.csproj", "{C272C26B-A153-4F0F-AC44-DC35B4B5B348}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B6CD7D6-42E1-4F99-AAFF-C5687821418A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6CD7D6-42E1-4F99-AAFF-C5687821418A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6CD7D6-42E1-4F99-AAFF-C5687821418A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6CD7D6-42E1-4F99-AAFF-C5687821418A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C272C26B-A153-4F0F-AC44-DC35B4B5B348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C272C26B-A153-4F0F-AC44-DC35B4B5B348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C272C26B-A153-4F0F-AC44-DC35B4B5B348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C272C26B-A153-4F0F-AC44-DC35B4B5B348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96F2F7C9-DB5F-4130-86BE-0E6C43B36E50}
+	EndGlobalSection
+EndGlobal
